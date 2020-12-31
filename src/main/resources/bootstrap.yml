@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-data-elastic-search
+  profiles:
+    active:
+    - dev
+  cloud:
+    config:
+      uri:
+      - http://localhost:9090
+      
+server:
+  port: 8090
